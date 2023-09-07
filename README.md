@@ -1,7 +1,7 @@
-# Zuri Backend Track
+# Zuriendpont
 
 ## Introduction
-HNG Internship X, Zuri Team
+A simple endpoint that returns data in json format
 
 ## Feature
 * The information required includes:
