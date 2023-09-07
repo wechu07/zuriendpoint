@@ -52,7 +52,9 @@ app.get("/api", (req, res) => {
 //   console.log(`Today's ${day}`);
 
   // get UTC time in ISO string
-  let utcTime = currentTime.toISOString();
+  let utcTime = currentTime.toISOString().split('.')[0] + 'Z';
+  const withoutMilliseconds = utcTime.split('.')[0] + 'Z';
+  console.log(withoutMilliseconds);
 
   res.status(200).json({
     slack_name: slack_name,
