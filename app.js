@@ -61,7 +61,7 @@ app.get("/api", (req, res) => {
     current_day: day,
     utc_time: utcTime,
     track: track,
-    github_file_url: "https://github.com/wechu07/zuriendpoint/app.js",
+    github_file_url: "https://github.com/wechu07/zuriendpoint/blob/main/app.js",
     github_repo_url: "https://github.com/wechu07/zuriendpoint",
     status_code: 200,
   });
